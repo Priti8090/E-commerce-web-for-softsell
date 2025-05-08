@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoftSell - License Resale Made Easy</title>
+  <meta name="description" content="Sell unused software licenses quickly and securely with SoftSell.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="credex.css">
+</head>
+<body class="manu">
+
+  <!-- Hero Section -->
+  <section class="header">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Sell Your Unused Software Licenses</h1>
+    <p class="text-lg md:text-2xl mb-6">Quick, secure, and profitable resale of software licenses.</p>
+    <a href="#contact" class="bg-white text-blue-600 px-6 py-3 font-semibold rounded shadow hover:bg-gray-100 transition">Sell My Licenses</a>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-16 px-6 md:px-20">
+    <h2 class="text-3xl font-bold text-center mb-10">How It Works</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div>
+        <img src="https://img.icons8.com/ios/100/upload--v1.png" class="mx-auto mb-4" alt="Upload">
+        <h3 class="font-bold text-xl mb-2">1. Upload License</h3>
+        <p>Submit your software license details securely.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios/100/money--v1.png" class="mx-auto mb-4" alt="Valuation">
+        <h3 class="font-bold text-xl mb-2">2. Get Valuation</h3>
+        <p>We analyze your license and offer a fair price.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios/100/money-transfer.png" class="mx-auto mb-4" alt="Get Paid">
+        <h3 class="font-bold text-xl mb-2">3. Get Paid</h3>
+        <p>Get paid directly to your account.</p>
+      </div>
+    </div>
+  </section>
+   <!-- Dark Mode Toggle -->
+   <div class="mode-changer">
+    <div class="mode-btn">
+    <button class="mode-btn-dark">Dark</button>
+    <button class="mode-btn-light">Light</button>
+    </div>
+  </div>
+
+  <!-- Why Choose Us -->
+  <section class="why">
+    <h2 class="text-3xl font-bold text-center mb-10">Why Choose Us</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+      <div>
+        <img src="https://img.icons8.com/ios/100/security-checked.png" class="mx-auto mb-2" alt="Secure">
+        <p>Secure Transactions</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios/100/time.png" class="mx-auto mb-2" alt="Fast">
+        <p>Quick Payouts</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios/100/approval.png" class="mx-auto mb-2" alt="Trusted">
+        <p>Trusted by 1,000+ users</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios/100/price-tag.png" class="mx-auto mb-2" alt="Best Price">
+        <p>Competitive Offers</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 px-6 md:px-20">
+    <h2 class="text-3xl font-bold text-center mb-10">Customer Testimonials</h2>
+    <div class="terminal-container">
+      <div class="terminal">
+        <p>“SoftSell made it so easy to sell my unused licenses. Got paid in 2 days!”</p>
+        <p class="mt-4 font-semibold">— John Doe, IT Manager, TechCorp</p>
+      </div>
+      <div class="terminal2">
+        <p>“Professional and quick service. Highly recommended!”</p>
+        <p class="mt-4 font-semibold">— Jane Smith, Freelancer, DesignLab</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="contect">
+    <h2 class="text-3xl font-bold text-center mb-10">Get in Touch</h2>
+    <form id="leadForm" class="max-w-2xl mx-auto grid grid-cols-1 gap-4">
+      <input type="text" placeholder="Name" name="name" required class="p-3 rounded border">
+      <input type="email" placeholder="Email" name="email" required class="p-3 rounded border">
+      <input type="text" placeholder="Company" name="company" required class="p-3 rounded border">
+      <select name="licenseType" required class="p-3 rounded border">
+        <option value="">Select License Type</option>
+        <option value="Windows">Windows</option>
+        <option value="Adobe">Adobe</option>
+        <option value="Autodesk">Autodesk</option>
+      </select>
+      <textarea name="message" placeholder="Your Message" required class="p-3 rounded border h-32"></textarea>
+      <button type="submit" class="bg-blue-600 text-white p-3 rounded hover:bg-blue-700">Submit</button>
+    </form>
+    <p id="formMessage" class="text-center mt-4 text-green-500 hidden">Thank you! We'll get back to you soon.</p>
+  </section>
+
+ 
+
+  <script src="credex.js"></script>
+</body>
+</html>
